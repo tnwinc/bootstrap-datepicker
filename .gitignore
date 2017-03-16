@@ -8,3 +8,6 @@ docs/_build
 # Folders to ignore
 bower_components
 node_modules
+.vs/slnx.sqlite
+.vs/config/applicationhost.config
+.vs/VSWorkspaceState.json
