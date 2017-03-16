@@ -1,4 +1,4 @@
-module('Component', {
+﻿module('Component', {
     setup: function(){
         this.component = $('<div class="input-append date" id="datepicker">'+
                                 '<input size="16" type="text" value="12-02-2012" readonly>'+
@@ -245,7 +245,9 @@ test('Focused ceil for decade/century/millenium views', function(){
       .datepicker({
         startView: 2,
         defaultViewDate: {
-          year: 2115
+          year: 2115,
+          month: 01,
+          day: 01
         }
       }),
       dp = input.data('datepicker'),
