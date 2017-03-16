@@ -1,13 +1,11 @@
-docs/_build
+﻿docs/_build
 *-dist.zip
 
 # OS or Editor folders
 .DS_Store
 .idea
+.vs
 
 # Folders to ignore
 bower_components
 node_modules
-.vs/slnx.sqlite
-.vs/config/applicationhost.config
-.vs/VSWorkspaceState.json
